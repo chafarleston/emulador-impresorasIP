@@ -1,0 +1,15 @@
+{
+  "name": "thermal-printer-emulator",
+  "version": "1.0.0",
+  "description": "Emulador de impresora térmica IP con soporte ESC/POS",
+  "main": "main.js",
+  "author": "Thermal Printer Emulator",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform=win32 --arch=x64 --out=dist --overwrite --ignore=dist --ignore=node_modules --prune"
+  },
+  "devDependencies": {
+    "electron": "^42.3.0",
+    "electron-packager": "^17.1.2"
+  }
+}
